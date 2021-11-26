@@ -10,6 +10,7 @@ java -jar  sftp_ AML_ cron.jar sftpaccount 10.255.7.131 aaaa /home/test upload
 Command format:
 java -jar  sftp_ AML_ Cron.jar remote_server_user_name remote_server_IP remote_server_password remote_server_directory action_(download_or_upload)
 
+
 这个小程序支持两个功能：
 1 从服务器下载文件（只获取三种后缀名：csv flg xml 的文件）到本地
 2 从本地上传文件到服务器
